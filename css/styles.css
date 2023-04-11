@@ -301,7 +301,7 @@ span {
 }
 
 .team .text {
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     text-align: center;
 }
 
@@ -353,7 +353,7 @@ span {
 }
 .client-icon {
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding: 16px 32px;
     width: 170px;
     height: 92px;
@@ -505,6 +505,12 @@ address {
     
 }
 
+.portfolio-nav .button-secondary:hover,
+.portfolio-nav .button-secondary:focus {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
 .portfolio-titel {
     color: var(--hed-text-color);
 
@@ -554,4 +560,10 @@ address {
     border: 1px solid #EEEEEE;
 
     background-color: var(--background-card-content);
+}
+
+.card-set .card:hover,
+.card-set .card:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
